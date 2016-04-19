@@ -3,4 +3,5 @@ lang:java
 lang:python
 lang:arduino
 lang:particle
+lang:C
 sku:TMP100_I2CS
