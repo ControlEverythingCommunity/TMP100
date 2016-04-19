@@ -62,4 +62,17 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc TMP100.c -o TMP100
+```
+Run the c program.
+```cpp
+$>./TMP100
+```
 #####The code output is the temperature reading in degree celsius and fahrenheit.
