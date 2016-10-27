@@ -10,7 +10,7 @@
 // TMP100 I2C address is 0x4F(79)
 #define Addr 0x4F
 
-float cTemp = 0, fTemp = 0;
+double cTemp = 0.0, fTemp = 0.0;
 void setup()
 {
   // Set variable
